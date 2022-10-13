@@ -1,0 +1,13 @@
+config-version: 1.0
+
+#-----------
+# * JSON - stores in an internal json file
+# * MYSQL - stores in an external MySQL server
+#-----------
+storage-provider: JSON
+
+mysql:
+  host: "mc.playskulk.com"
+  port: 3306
+  username: "UnKnown"
+  pass: "UnKnown"
